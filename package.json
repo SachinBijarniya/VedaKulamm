@@ -1,0 +1,10 @@
+{
+  "name": "vedakulam",
+  "version": "1.0.0",
+  "description": "Veda Kulam Static Website",
+  "scripts": {
+    "dev": "npx serve ."
+  },
+  "author": "",
+  "license": "ISC"
+}

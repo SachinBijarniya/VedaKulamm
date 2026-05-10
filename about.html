@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Veda Kulam</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .page-header {
+            background-color: var(--primary);
+            color: white;
+            padding: 8rem 0 4rem 0;
+            text-align: center;
+        }
+        .page-header h1 {
+            color: white;
+            font-size: 3rem;
+        }
+        .about-section {
+            padding: 4rem 0;
+            border-bottom: 1px solid #E2E8F0;
+        }
+        .about-section:last-child {
+            border-bottom: none;
+        }
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        .team-member {
+            text-align: center;
+        }
+        .team-member img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto 1rem auto;
+            box-shadow: var(--shadow-md);
+        }
+        .team-member h4 {
+            margin-bottom: 0.25rem;
+        }
+        @media (max-width: 768px) {
+            .about-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                </svg>
+                Veda Kulam
+            </a>
+            <button class="mobile-menu-btn">☰</button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="container">
+            <h1>About Veda Kulam</h1>
+            <p style="color: rgba(255,255,255,0.8); max-width: 600px; margin: 1rem auto 0;">Dedicated to holistic student development through modern education and timeless values.</p>
+        </div>
+    </header>
+
+    <!-- Vision & Mission -->
+    <section class="about-section">
+        <div class="container about-grid">
+            <div>
+                <h2 class="mb-4">Vision & Mission</h2>
+                <p class="mb-4">Our vision is to cultivate an educational environment where academic excellence is seamlessly integrated with student wellness. We believe that true growth happens when the mind is at peace and curiosity is nurtured.</p>
+                <p>Our mission is to empower students with the tools they need to succeed both inside and outside the classroom, fostering resilience, empathy, and a lifelong love for learning.</p>
+            </div>
+            <div>
+                <img src="images/hero_wellness.png" alt="Vision and Mission" style="border-radius: var(--border-radius-lg); box-shadow: var(--shadow-lg);">
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Approach -->
+    <section class="about-section section-bg">
+        <div class="container about-grid" style="direction: rtl;">
+            <div style="direction: ltr;">
+                <h2 class="mb-4">Our Approach</h2>
+                <p class="mb-4">We employ a holistic framework that addresses the physical, emotional, and cognitive needs of our students. By blending evidence-based educational strategies with mindfulness practices, we ensure a balanced development trajectory.</p>
+                <ul style="list-style-position: inside; color: var(--text-light); line-height: 1.8;">
+                    <li>Personalized learning pathways</li>
+                    <li>Integrated wellness routines</li>
+                    <li>Collaborative project-based learning</li>
+                    <li>Value-driven mentorship</li>
+                </ul>
+            </div>
+            <div style="direction: ltr;">
+                <img src="images/programs_curiosity.png" alt="Our Approach" style="border-radius: var(--border-radius-lg); box-shadow: var(--shadow-lg);">
+            </div>
+        </div>
+    </section>
+
+    <!-- Team -->
+    <section class="about-section">
+        <div class="container">
+            <div class="text-center">
+                <h2>Our Leadership Team</h2>
+                <p class="mb-8">Guided by experienced educators and wellness experts.</p>
+            </div>
+            <div class="team-grid">
+                <div class="team-member">
+                    <!-- Placeholder image for team -->
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=400&auto=format&fit=crop" alt="Director">
+                    <h4>Dr. Sarah Chen</h4>
+                    <p style="font-size: 0.9rem;">Academic Director</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=400&auto=format&fit=crop" alt="Director">
+                    <h4>Michael Roberts</h4>
+                    <p style="font-size: 0.9rem;">Head of Wellness</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=400&auto=format&fit=crop" alt="Director">
+                    <h4>Dr. Priya Sharma</h4>
+                    <p style="font-size: 0.9rem;">Lead Researcher</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=400&auto=format&fit=crop" alt="Director">
+                    <h4>David Kim</h4>
+                    <p style="font-size: 0.9rem;">Program Coordinator</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research & Development -->
+    <section class="about-section section-bg">
+        <div class="container text-center">
+            <h2 class="mb-4">Research & Development</h2>
+            <p style="max-width: 800px; margin: 0 auto;" class="mb-8">Our methodologies are rooted in continuous research. The R&D wing at Veda Kulam actively studies the intersection of cognitive science, educational psychology, and holistic health to constantly refine our programs.</p>
+            <img src="images/programs_academic.png" alt="Research and Development" style="border-radius: var(--border-radius-xl); box-shadow: var(--shadow-lg); max-height: 400px; width: 100%; object-fit: cover;">
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <div class="footer-logo">
+                    <span class="logo-icon">🌿</span>
+                    <span class="logo-text">VedaKulam</span>
+                </div>
+                <p class="footer-desc">VedaKulam is a unit of Veda Education Research Private Limited, India — dedicated to holistic student development through health, mindfulness, and academic guidance.</p>
+                <div class="footer-socials">
+                    <a href="#">f</a>
+                    <a href="#">i</a>
+                    <a href="#">t</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4 class="footer-heading"><span class="icon">📍</span> ADDRESS</h4>
+                <ul class="footer-list">
+                    <li><span class="icon">📍</span> Roorkee, Uttarakhand,<br>India<br>Pin - 247667</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 class="footer-heading"><span class="icon">📞</span> CONTACT US</h4>
+                <ul class="footer-list">
+                    <li><span class="icon">📞</span> +91 88512 88132</li>
+                    <li><span class="icon">✉</span> veda@gmail.com</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <div class="subscribe-card">
+                    <h4 class="footer-heading"><span class="icon">📩</span> STAY CONNECTED</h4>
+                    <p>Join our mailing list to receive updates, educational resources, and wellness tools.</p>
+                    <form class="subscribe-form" onsubmit="event.preventDefault(); alert('Subscribed!');">
+                        <input type="text" placeholder="Name" required>
+                        <input type="text" placeholder="Email / Mobile" required>
+                        <button type="submit" class="btn-subscribe">SUBSCRIBE</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 Veda Education Research Private Limited. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
